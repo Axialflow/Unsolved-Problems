@@ -27,7 +27,7 @@ void f039() //All TLE (1s) //Please tell me WHY!!
                 minDay = k;
                 minPrice = priceVeg[k];
 
-                if ((maxPrice - minPrice >= priceFurn) & (maxDay - minDay > 0)) { cout << "Yes\n" << minDay << " " << maxDay << endl; return; }
+                if ((maxPrice - minPrice == priceFurn) & (maxDay - minDay > 0)) { cout << "Yes\n" << minDay << " " << maxDay << endl; return; }
             }
         }
     }
